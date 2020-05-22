@@ -1,0 +1,19 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "marked": "^1.1.0"
+  }
+}
