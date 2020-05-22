@@ -14,6 +14,6 @@ app.get('/', (req, res) => {
     res.send('Date: ' + datetime.toString());
 });
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
+app.listen(port, () => console.log(`App listening at http://localhost:${port}`));
 
 module.exports = app;
